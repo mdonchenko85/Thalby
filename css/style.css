@@ -119,14 +119,14 @@ header .logo{
     width: 100%;
     display: block;
 }
-.people .description{
+.people .descriptionPeopleSec{
     max-width: 498px;
 }
-.description{
+.descriptionPeopleSec{
     padding-top: 70px;
     padding-bottom: 121px;
 }
-.description h3{
+.descriptionPeopleSec h3{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -135,7 +135,7 @@ header .logo{
     color: #000000;
     margin-bottom: 31px;
 }
-.description p{
+.descriptionPeopleSec p{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -145,7 +145,7 @@ header .logo{
     margin-bottom: 31px;
 }
 
-.description a{
+.descriptionPeopleSec a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -154,4 +154,99 @@ header .logo{
     text-decoration-line: underline;
     color: #000000;
 
+}
+.power{
+    background: rgba(204, 204, 204, 0.3);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.power .forImage {
+    max-width: 385px;
+    margin-right: 50px;
+}
+.power .descriptionPowerSec{
+    max-width: 530px;
+}
+.descriptionPowerSec {
+    padding-top: 70px;
+    padding-bottom: 142px;
+}
+.descriptionPowerSec h3{
+    margin-bottom: 31px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+
+}
+.descriptionPowerSec p{
+    margin-bottom: 39px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.descriptionPowerSec a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.culture{
+    background: rgba(204, 204, 204, 0.6);
+    padding-top: 76px;
+    padding-bottom: 51px;
+}
+.culture .descriptionCultureSec{
+    text-align: right;
+    max-width: 513px;
+    margin-right: 60px;
+}
+.culture .forImage {
+    max-width: 385px;
+}
+.culture .forImage img {
+    width: 100%;
+    display: block;
+}
+.descriptionCultureSec h3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.descriptionCultureSec p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: right;
+    color: #000000;
+    margin-bottom: 31px;
+}
+.descriptionCultureSec a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.justify-left{
+    justify-content: end;
 }
