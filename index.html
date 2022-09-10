@@ -11,50 +11,62 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="light">
 <header>
-<div class="headerContainer d-flex justify-between align-center">
-        <nav >
-            <ul class="d-flex align-center">
-                <li>
-                    <a href="#">Shop</a>
-                </li>
-                <li>
-                    <a href="#">Collections</a>
-                </li>
-                <li>
-                <a href="#">Try a Free Guide</a>
-                </li>
-                <li>
-                <a href="#">Stories</a>
-                </li>
-            </ul>
-        </nav>
+    <div class="header-wrapper headerContainer d-flex justify-between align-center">
+
             <a href="#" class="logo">
                 <img src="images/thalbyLogo.svg" alt="Logo">
-            </a>
+                </a>
             <ul class="d-flex align-center">
                 <li>
                     <a href="#" title="instagram">
-                    <img src="images/instaIcon.svg" alt="Instagram">
-                    </a>
+                 <img src="images/instaIcon.svg" alt="Instagram">
+                </a>
                 </li>
                 <li>
-                    <a href="#" title="search">
-                        <img src="images/searchIcon.svg" alt="Search">
-                    </a>
+                <a href="#" title="search">
+                <div id="dialog" title="Basic dialog">
+                <img src="images/searchIcon.svg" alt="Search">
+                </div>
+                </a>
                 </li>
                 <li>
-                    <a href="#" title="shop"><img src="images/bascketIcon.svg" alt="shop">
-                    </a>
+                <a href="#" title="shop"><img src="images/bascketIcon.svg" alt="shop">
+                </a>
                 </li>
-            </ul>
+                </ul>
 
-</div>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+    </div>
 </header>
+
+<div class="nav">
+    <div class="nav__content">
+        <ul class="nav__list">
+            <li class="nav__list-item active-nav"><a href="#" class="hover-target">Shop</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Collections</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Try a Free Guide</a></li>
+            <li class="nav__list-item"><a href="#" class="hover-target">Stories</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class='cursor2' id="cursor2"></div>
+<div class='cursor3' id="cursor3"></div>
+
 <section class="mainBanner">
     <div class="headerContainer">
        <h1>Fall deeper in love<br> with<br> humanity.</h1>
@@ -162,13 +174,14 @@
 </section>
 <section class="dots">
     <h3>Some of the features that<br>make Thalby guides unique</h3>
-    <div class="dotsType d-flex justify-between align-center wrap-flex">
-        <p><span>Written by<br>locals</span></p>
-        <p><span>Packed with<br>insight</span></p>
-        <p><span>Interviews with<br>diverse voices</span></p>
-        <p><span>Key facts and<br> etiquette tips</span></p>
-        <p><span>A concise<br>1-hour read</span></p>
-        <p><span>Instant<br>digital access</span></p>
+    <div class=" dotsType d-flex justify-between  align-center wrap-flex">
+        <div class="dotsView"><p> <img src="images/firstDot.svg"><br>Written by<br>locals</p></div>
+
+        <div class="dotsView"><p> <img src="images/secondDot.svg"><br>Packed with<br>insight</p></div>
+        <div class="dotsView"><p> <img src="images/thirdDot.svg"><br>Interviews with<br>diverse voices</p></div>
+        <div class="dotsView"> <p> <img src="images/fourthDot.svg"><br>Key facts and<br>etiquette tips</p></div>
+        <div class="dotsView"> <p> <img src="images/fifthDot.svg"><br>A concise<br>1-hour read</p></div>
+        <div class="dotsView"> <p> <img src="images/sixDot.svg"><br>Instant<br>digital access</p></div>
     </div>
     <h3>Each Thalby guide includes interviews with<br>a range of fascinating voices, such as</h3>
 
@@ -270,7 +283,10 @@
     <p>Thalby LLC © 2021</p>
 
 </footer>
-<i class="fa-solid fa-chevron-right"></i>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="https://kit.fontawesome.com/69db3d0dc0.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
