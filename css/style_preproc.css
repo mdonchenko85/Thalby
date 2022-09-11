@@ -1,0 +1,342 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.headerContainer {
+  margin: auto;
+  max-width: 1064px;
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-left {
+  justify-content: end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.wrap-flex {
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: white;
+  padding: 7px 0;
+}
+header ul {
+  list-style: none;
+}
+header ul li li:first-of-type {
+  margin-right: 16px;
+}
+header ul li li:last-of-type {
+  margin-left: 7px;
+}
+header .logo {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  top: 13px;
+}
+header nav li {
+  margin-right: 28px;
+}
+header nav li :first-of-type {
+  margin-right: 28px;
+}
+header nav li :last-of-type {
+  margin-left: 0;
+}
+header nav li a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1C1B1B;
+  text-decoration: none;
+}
+
+.mainBanner {
+  padding: 90px 0;
+  background-color: #F0EFEB;
+  position: relative;
+}
+.mainBanner h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  color: #000000;
+  margin-bottom: 42px;
+}
+.mainBanner p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.mainBanner a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: white;
+  display: inline-block;
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  padding: 7px 23px;
+  text-decoration: none;
+}
+.mainBanner img {
+  position: absolute;
+  right: 6%;
+  top: 0;
+}
+
+.descriptionMain {
+  padding-top: 60px;
+  padding-bottom: 248px;
+}
+.descriptionMain h2 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 27px;
+}
+.descriptionMain h2 :last-of-type {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+.descriptionMain p {
+  text-align: center;
+  max-width: 672px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin: auto;
+}
+.descriptionMain h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #000000;
+  margin-top: 47px;
+  margin-bottom: 88px;
+}
+
+.bestSellers {
+  margin: auto;
+  max-width: 1064px;
+}
+.bestSellers .forImageSecThree {
+  max-width: 315px;
+  margin: auto;
+}
+.bestSellers img {
+  max-width: 309px;
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+.bestSellers p {
+  max-width: 156px;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.bestSellers p :nth-child(2) {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.bestSellers p :last-of-type {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.people {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.people .forImage {
+  max-width: 385px;
+  margin-right: 50px;
+}
+.people .forImage img {
+  width: 100%;
+  display: block;
+}
+.people .descriptionPeopleSec {
+  max-width: 498px;
+  padding-top: 70px;
+  padding-bottom: 121px;
+}
+.people .descriptionPeopleSec h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people .descriptionPeopleSec p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.people .descriptionPeopleSec a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.power {
+  background: rgba(204, 204, 204, 0.3);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.power .forImage {
+  max-width: 385px;
+  margin-right: 50px;
+}
+.power .descriptionPowerSec {
+  max-width: 530px;
+  padding-top: 70px;
+  padding-bottom: 142px;
+}
+.power h3 {
+  margin-bottom: 31px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+.power p {
+  margin-bottom: 39px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+.power a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.culture {
+  background: rgba(204, 204, 204, 0.6);
+  padding-top: 76px;
+  padding-bottom: 51px;
+}
+.culture .descriptionCultureSec {
+  text-align: right;
+  max-width: 513px;
+  margin-right: 60px;
+}
+.culture .forImage {
+  max-width: 385px;
+}
+.culture .forImage img {
+  width: 100%;
+  display: block;
+}
+.culture h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: right;
+  color: #000000;
+  margin-bottom: 31px;
+}
+.culture a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style_preproc.css.map */
