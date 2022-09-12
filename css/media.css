@@ -1,0 +1,202 @@
+@media screen and (max-width: 835px) {
+.headerContainer {
+    padding: 0 15px;
+}
+    .lastContainer{
+        padding: 0 15px;
+    }
+    .mainBanner img{
+        background-image: url('../images/imageFirst.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: -20px;
+        top: 60px;
+        width: 52%;
+        height: 90vh;
+        }
+    .mainBanner h1{
+        font-size: 35px;
+        line-height: 48px;
+    }
+    .mainBanner p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .descriptionMain h2 {
+
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+   .descriptionMain h3 {
+
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .people .descriptionPeopleSec h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .people .descriptionPeopleSec p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .culture h3 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .descriptionCultureSec{
+        max-width: 400px;
+    }
+    .descriptionCultureSec .descriptionPowerSec{
+        max-width: 400px;
+    }
+    .culture p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .power h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .power p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .dots{
+        padding-top: 80px;
+        padding-bottom: 190px;
+    }
+    .dots h3{
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .dots h4{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .dotsType .d-flex{
+
+        flex-direction: column-reverse;
+    }
+
+    .dotsView img{
+        width: 40px;
+        height: 40px;
+    }
+    .dotsView{
+        max-width: 80px;
+        margin-bottom: 60px;
+        margin-right: 25px;
+
+    }
+    .dotsView p{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .dotsView{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .voices .item{
+        max-width: 200px;
+        text-align: center;
+    }
+    .voices .item img{
+        display: block;
+        width: 100%;
+        margin-top: -120px;
+    }
+    .lastContainer{
+        padding-top: 51px;
+    }
+    .footer{
+        margin-left: 90px;
+    }
+
+}
+@media screen and (max-width: 374px) {
+    .headerContainer {
+        padding: 0 15px;
+    }
+    .lastContainer{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mainBanner img{
+        position: relative;
+        right: 0;
+        top: 0;
+
+    }
+    .mainBanner h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .mainBanner p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+.people .d-flex{
+    flex-direction: column;
+}
+    .power .d-flex{
+        flex-direction: column;
+    }
+    .power .h3{
+        margin: auto;
+    }
+    .culture .d-flex{
+        flex-direction: column-reverse;
+    }
+    .culture h3{
+        text-align: end;
+        margin-top: 46px;
+    }
+    .culture .p{
+        text-align: end;
+    }
+    .voices .d-flex{
+        flex-direction: column;
+
+    }
+    .footer {
+        padding-top: 50px;
+        margin-left: 85px;
+
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+header .logo{
+    position: relative;
+    left: 0;
+    margin-left: 0;
+    top: 0;
+
+}
+    img{
+        background-image: url('../images/imageFirst.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        right: -20px;
+        top: 60px;
+        width: 60%;
+        height: 60vh;
+    }
+
+}
+@media screen and (max-width: 320px) {
+
+}
+@media screen and (max-width: 900px) {
+
+}
